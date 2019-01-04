@@ -7,7 +7,7 @@ I purposefully didn't map the question to a company. That's not the point of thi
 Security is difficult to get your arms around, much less your brain. I sorted the questions into logical topic groups, though. I'm also answering the questions periodically at https://medium.com/@theporkskewer.
 
 # Changes in the repository
-- Added basic answers 
-- Added more questions
-- Added interview questions I get
-- Added more specific answers
+- Added basic answers X
+- Added more questions X
+- Added interview questions I get X
+- Added more specific answers X
