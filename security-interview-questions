@@ -23,6 +23,14 @@ Encryption and Authentication
     * What is the difference between 128 and 256?
     * How do I authenticate you and know you sent the message?
     * Should you encrypt all data at rest?
+Interviews
+    * Over what port does ping run?
+    * Explain TCP handshake
+    * What RID do Administrator accounts have?
+    * Explain:
+         - Hash the pass
+         - NTHash
+         - SAM File
 
 Network Level
     * What are common ports involving security, what are the risks and mitigations?
@@ -30,6 +38,7 @@ Network Level
         * AH
         * ESP
     * Describe HTTPs and how it is used.
+    * How does HTTP handle state?
     * What is the difference between HTTPS and SSL?
     * How does threat modeling work?
     * What is a subnet and how is it useful in security?
