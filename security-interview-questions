@@ -9,6 +9,7 @@ Encryption and Authentication
          computer by the web browser.
       
     * How do sessions work?
+    * How does JSON security tokens work?
     * Explain how OAuth works.
     * What is a public key infrastructure flow and how would I diagram it?
     * Describe the difference between synchronous and asynchronous encryption.
@@ -94,6 +95,7 @@ Tools and Games
     * How would you decrypt a steganography image? 
     * You're given an ip-based phone and asked me to decrypt the message in the phone.
     * What CND tools do you knowledge or experience with?
+    * Some SIEM systems you used or know?
     * What is the difference between nmap -ss and nmap -st?
     * How would you filter xyz in Wireshark?
     * Given a sample packet capture - Identify the protocol, the traffic, and the likelihood of malicious intent.
