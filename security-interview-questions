@@ -25,13 +25,22 @@ Encryption and Authentication
     * How do I authenticate you and know you sent the message?
     * Should you encrypt all data at rest?
 Interviews
-    * Over what port does ping run?
-    * Explain TCP handshake
-    * What RID do Administrator accounts have?
+    * Q: Over what port does ping run? 
+      A: Ping uses ICMP type 8 (echo request message) and type 0 (echo reply message). ICMP does not use ports.
+    * Q: Explain TCP handshake
+      A: SYN (Client send SYN packet to server to ask the server if it is open for new connections), 
+         SYN-ACK (When the server receives the SYN packet it sends back a SYN-ACK confirmation packet), 
+         ACK (The client receives the SYN-ACK packet and responds with ACK)
+    * Q: What RID do Administrator accounts have?
+      A: 500
     * Explain:
-         - Hash the pass
-         - NTHash
-         - SAM File
+         Windows:
+         - Hash the pass (Using an uncrackable hash for authentication to access services/accounts instead of plaintext password)
+         - NTHash        ()
+         - SAM File      (Database file in Windows systems where the users passwords hashes are found)
+         Linux:
+         - Passwd File (File that stores user account details. Can be read by everyone.)
+         - Shadow File (File that stores user encrypted passwords. Only readable by root.)
 
 Network Level
     * What are common ports involving security, what are the risks and mitigations?
@@ -82,6 +91,7 @@ OWASP Top 10
     * Explain man-in-the-middle attacks
 
 Databases
+    * Differences between sql injection and nosql injection.
     * How would you secure a Mongo database?
     * Postgres?
     * Our DB was stolen/exfiltrated. It was secured with one round of sha256 with a static salt. 
